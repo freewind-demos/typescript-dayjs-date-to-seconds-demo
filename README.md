@@ -1,8 +1,7 @@
-TypeScript Dayjs Demo
-=====================
+TypeScript Dayjs Date to MilliSeconds Demo
+=====================================
 
-dayjs相对于moment的优势是：体积小，不可变
-相对于date-fns的优势是：可链式操作
+`dayjs(time).valueOf()`等价于`time.getTime()`
 
 ```
 npm install
